@@ -1,5 +1,5 @@
 %% This code find cut7 spots and make kymographs for a single segmented cell. 
-%  By LuKeZ, last modified: 9-21-2023
+%  By Bojun Zhou, last modified: 9-1-2025
 %{
 % To run this code, you need to: 
 %  1. Specify the file path of segmented cell.mat (format: 1***_100R_100G_25_deg_00*_**.mat) in data_path line.
@@ -133,3 +133,4 @@ saveas(gcf,'Red-Green-Kymograph.svg');
 
 pause(1);
 close all;
+
