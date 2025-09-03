@@ -1,13 +1,8 @@
-% This code takes in the kymograph, and adjust the constrast of kymograph
-% The low_thres controls the lower bound for constrast adjustment, anything below will display as 0 (black). 
-% The high_thres controls the upper bound for constrast adjustment, anything above will display as 255 (white). 
-% lower bound is defined by lower_bound = min_pix_val + low_thres * mid_min_diff;
-% upper bound is defined by upper_bound = median_pix_val + high_thres * max_mid_diff;
-% last modified: 7-14-2022
+% Automatically drawing scalebars to kymograph
 
 function KymoAddScaleBar(Kymograph, low_thres, high_thres, total_length, total_time, channelType)
     
-    unit_length = 3;            % Micron per 10 pixels
+    unit_length = 3;            % Micrometers
     unit_time = 3;              % Minutes
     edge_dist_ini = 7;          % How far to draw the scale bar from the edge (default: TR corner)
     bar_thickness_ini = 5;      % Marker size of scale bar, in pixel on the kymograph
@@ -60,9 +55,9 @@ function KymoAddScaleBar(Kymograph, low_thres, high_thres, total_length, total_t
 
     %   out_filename = strcat(channelType, '_KymographScaleBar.png');
     %   exportgraphics(gcf, out_filename);
-    out_filename = strcat(channelType, '_Kymo+ScBar2.fig');
+    out_filename = strcat(channelType, '_Kymo+ScBar.fig');
     saveas(gcf, out_filename);
-    out_filename = strcat(channelType, '_Kymo+ScBar2.tif');
+    out_filename = strcat(channelType, '_Kymo+ScBar.tif');
     exportgraphics(gcf, out_filename);
     %% Solo optimized figure
 
