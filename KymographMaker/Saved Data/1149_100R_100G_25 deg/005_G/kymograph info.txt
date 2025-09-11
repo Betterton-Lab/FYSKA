@@ -1,0 +1,14 @@
+First frame = 70
+Last frame = 240
+Frame interval = 8.60 sec
+Total time = 24.50 min
+Total length = 10.17 µm
+Channel type = cut7
+
+First frame = 70
+Last frame = 240
+Frame interval = 8.60 sec
+Total time = 24.50 min
+Total length = 10.17 µm
+Channel type = MT
+

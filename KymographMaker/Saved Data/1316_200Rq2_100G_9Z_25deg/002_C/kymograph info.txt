@@ -1,0 +1,14 @@
+First frame = 1
+Last frame = 213
+Frame interval = 8.43 sec
+Total time = 29.92 min
+Total length = 14.70 µm
+Channel type = sid4
+
+First frame = 1
+Last frame = 213
+Frame interval = 8.43 sec
+Total time = 29.92 min
+Total length = 14.70 µm
+Channel type = cut7
+

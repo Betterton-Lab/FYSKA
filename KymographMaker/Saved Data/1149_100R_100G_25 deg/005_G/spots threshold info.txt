@@ -1,0 +1,5 @@
+First frame = 70
+Last frame = 240
+Threshold = 2.0 std
+Spot size = 3 pix
+
